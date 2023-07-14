@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WEB-115 Final Project</title>
+</head>
+<body>
+    <script src="projectJS.js"></script>
+
+  <form id="mealPlan">
+    <h3>Client Information</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" ><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="sarahlewis@gmail.com"><br><br>
+
+    <label for="goal">Goal for the Week:</label>
+    <input type="text" id="goal" ><br><br>
+
+    <h3>Weekly Meal Plan</h3>
+    <h4>Monday</h4>
+    <label for="mondayBreakfast">Breakfast:</label>
+    <input type="text" id="mondayBreakfast" ><br><br>
+
+    <label for="mondaySnack1">Snack:</label>
+    <input type="text" id="mondaySnack1" ><br><br>
+
+    <label for="mondayLunch">Lunch:</label>
+    <input type="text" id="mondayLunch" ><br><br>
+
+    <label for="mondaySnack2">Snack:</label>
+    <input type="text" id="mondaySnack2" ><br><br>
+
+    <label for="mondayDinner">Dinner:</label>
+    <input type="text" id="mondayDinner" ><br><br>
+
+    <h4>Tuesday</h4>
+    <label for="tuesdayBreakfast">Breakfast:</label>
+    <input type="text" id="tuesdayBreakfast" ><br><br>
+
+    <label for="tuesdaySnack1">Snack:</label>
+    <input type="text" id="tuesdaySnack1" ><br><br>
+
+    <label for="tuesdayLunch">Lunch:</label>
+    <input type="text" id="tuesdayLunch" ><br><br>
+
+    <label for="tuesdaySnack2">Snack:</label>
+    <input type="text" id="tuesdaySnack2" ><br><br>
+
+    <label for="tuesdayDinner">Dinner:</label>
+    <input type="text" id="tuesdayDinner" ><br><br>
+
+    <h4>Wednesday</h4>
+    <label for="wednesdayBreakfast">Breakfast:</label>
+    <input type="text" id="wednesdayBreakfast" ><br><br>
+
+    <label for="wednesdaySnack1">Snack:</label>
+    <input type="text" id="wednesdaySnack1" ><br><br>
+
+    <label for="wednesdayLunch">Lunch:</label>
+    <input type="text" id="wednesdayLunch" ><br><br>
+
+    <label for="wednesdaySnack2">Snack:</label>
+    <input type="text" id="wednesdaySnack2" ><br><br>
+
+    <label for="wednesdayDinner">Dinner:</label>
+    <input type="text" id="wednesdayDinner" ><br><br>
+
+    <h4>Thursday</h4>
+    <label for="thursdayBreakfast">Breakfast:</label>
+    <input type="text" id="thursdayBreakfast" ><br><br>
+
+    <label for="thursdaySnack1">Snack:</label>
+    <input type="text" id="thursdaySnack1" ><br><br>
+
+    <label for="thursdayLunch">Lunch:</label>
+    <input type="text" id="thursdayLunch" ><br><br>
+
+    <label for="thursdaySnack2">Snack:</label>
+    <input type="text" id="thursdaySnack2" ><br><br>
+
+    <label for="thursdayDinner">Dinner:</label>
+    <input type="text" id="thursdayDinner" ><br><br>
+
+    <h4>Friday</h4>
+    <label for="fridayBreakfast">Breakfast:</label>
+    <input type="text" id="fridayBreakfast" ><br><br>
+
+    <label for="fridaySnack1">Snack:</label>
+    <input type="text" id="fridaySnack1" ><br><br>
+
+    <label for="fridayLunch">Lunch:</label>
+    <input type="text" id="fridayLunch" ><br><br>
+
+    <label for="fridaySnack2">Snack:</label>
+    <input type="text" id="fridaySnack2" ><br><br>
+
+    <label for="fridayDinner">Dinner:</label>
+    <input type="text" id="fridayDinner" ><br><br>
+
+    <h4>Saturday</h4>
+    <label for="saturdayBreakfast">Breakfast:</label>
+    <input type="text" id="saturdayBreakfast" ><br><br>
+
+    <label for="saturdaySnack1">Snack:</label>
+    <input type="text" id="saturdaySnack1" ><br><br>
+
+    <label for="saturdayLunch">Lunch:</label>
+    <input type="text" id="saturdayLunch" ><br><br>
+
+    <label for="saturdaySnack2">Snack:</label>
+    <input type="text" id="saturdaySnack2" ><br><br>
+
+    <label for="saturdayDinner">Dinner:</label>
+    <input type="text" id="saturdayDinner" ><br><br>
+
+    <h4>Sunday</h4>
+    <label for="sundayBreakfast">Breakfast:</label>
+    <input type="text" id="sundayBreakfast" ><br><br>
+
+    <label for="sundaySnack1">Snack:</label>
+    <input type="text" id="sundaySnack1" ><br><br>
+
+    <label for="sundayLunch">Lunch:</label>
+    <input type="text" id="sundayLunch" ><br><br>
+
+    <label for="sundaySnack2">Snack:</label>
+    <input type="text" id="sundaySnack2" ><br><br>
+
+    <label for="sundayDinner">Dinner:</label>
+    <input type="text" id="sundayDinner" ><br><br>
+
+    <button type="button" id="mealPlanButton">Generate Meal Plan</button>
+    <button type="button" id="clearButton">Clear</button>
+  </form>
+</body>
+</html>
+
+
+<style>
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+
+</style>
+</html>
